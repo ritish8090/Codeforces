@@ -1,2 +1,2 @@
-# Leetcode
-My Daily Consistency for Leetcode
+# Codeforces
+My Daily Consistency for Codeforces
