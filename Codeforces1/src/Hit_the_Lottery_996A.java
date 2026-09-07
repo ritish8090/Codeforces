@@ -1,0 +1,18 @@
+import java.util.*;
+public class Hit_the_Lottery_996A {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+
+            int n = sc.nextInt();
+            int[] bills = {100, 20, 10, 5, 1};
+
+            int ans = 0;
+
+            for (int bill : bills) {
+                ans += n / bill;
+                n %= bill;
+            }
+
+            System.out.println(ans);
+        }
+}
